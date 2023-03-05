@@ -9,3 +9,10 @@ end=int(input("Enter the Max limit: "))
 num1 = random.randrange(start,end)
 
 print("Your range is from",start,"to",end,"and the number is",num1,".")
+ 
+if num1==21:
+    print("Number 22 should be excused :)")
+
+else:
+    print("Have a Nice Day!")
+    
